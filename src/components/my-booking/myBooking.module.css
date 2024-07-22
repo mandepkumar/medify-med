@@ -1,0 +1,94 @@
+.bookingCenterMain {
+  padding-top: 6rem;
+  padding-left: var(--page-padding-inline);
+  padding-right: var(--page-padding-inline);
+}
+.searchBox {
+  box-shadow: 6px 6px 35px 0px #1028511c;
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+.centerListAndAds {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.centerListColumn {
+  flex-basis: 70%;
+}
+
+.adsColumn {
+  flex-basis: 30%;
+}
+.searchBoxBg {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  padding-left: var(--page-padding-inline);
+  padding-right: var(--page-padding-inline);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.searchBoxPrimary {
+  background-color: var(--primary-color);
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50%;
+  width: 100%;
+
+  padding-left: var(--page-padding-inline);
+  padding-right: var(--page-padding-inline);
+  display: flex;
+  align-items: last baseline;
+  justify-content: start;
+
+  h2 {
+    font-family: Ubuntu;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.searchBoxTab {
+  box-shadow: 6px 6px 35px 0px #1028511c;
+  background: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  z-index: 99;
+}
+.searchBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 1rem;
+  row-gap: 0.5rem;
+  padding: 1rem;
+  z-index: 100;
+}
+
+@media only screen and (max-width: 850px) {
+  .centerListAndAds {
+    flex-wrap: wrap;
+  }
+
+  .searchBoxPrimary {
+    h2 {
+      font-size: 16px;
+    }
+  }
+}

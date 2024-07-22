@@ -1,0 +1,32 @@
+[
+  {
+    "id": "201800156MX",
+    "name": "Dr. Ahmad Khan",
+    "specialist": "Neurologist",
+    "img": "ahmad.png"
+  },
+  {
+    "id": "200000156MX",
+    "name": "Dr. Ahmad Stevens",
+    "specialist": "General Doctor",
+    "img": "ankur.png"
+  },
+  {
+    "id": "200800156MX",
+    "name": "Dr. Lesley Hull",
+    "specialist": "Medicine",
+    "img": "ahmad.png"
+  },
+  {
+    "id": "200600156MX",
+    "name": "Dr. Heena Sachdeva",
+    "specialist": "Orthopadics",
+    "img": "heena.png"
+  },
+  {
+    "id": "199900158MX",
+    "name": "Dr. Ankur Sharma",
+    "specialist": "Medicine",
+    "img": "ankur.png"
+  }
+]

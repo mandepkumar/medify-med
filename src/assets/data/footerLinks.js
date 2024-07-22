@@ -1,0 +1,17 @@
+export const FooterLinks = [
+  { name: "About Us", link: "#" },
+  { name: "Our Pricing", link: "#" },
+  { name: "Our Gallery", link: "#" },
+  { name: "Appointment", link: "#" },
+  { name: "Privacy Policy", link: "#" },
+  { name: "Orthology", link: "#" },
+  { name: "Neurology", link: "#" },
+  { name: "Dental Care", link: "#" },
+  { name: "Opthalmology", link: "#" },
+  { name: "Cardiology", link: "#" },
+  { name: "About Us", link: "#" },
+  { name: "Our Pricing", link: "#" },
+  { name: "Our Gallery", link: "#" },
+  { name: "Appointment", link: "#" },
+  { name: "Privacy Policy", link: "#" },
+];

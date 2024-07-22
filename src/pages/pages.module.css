@@ -1,0 +1,14 @@
+.homePage {
+  padding-left: var(--page-padding-inline);
+  padding-right: var(--page-padding-inline);
+
+  .searchBg {
+    background: linear-gradient(to right, red 50%, green 50%);
+  }
+}
+.FindDoctorPage {
+  background: var(--gradient-blue);
+}
+.MyBookingPage {
+  background: var(--gradient-blue);
+}
